@@ -25,34 +25,37 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DX-gK-GBz">
-                        <rect key="frame" x="157" y="30" width="34" height="21"/>
+                        <rect key="frame" x="157" y="30" width="209" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubTitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lak-NI-dul">
-                        <rect key="frame" x="157" y="67" width="62" height="21"/>
+                        <rect key="frame" x="157" y="67" width="366" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkE-KJ-89W">
-                        <rect key="frame" x="487" y="119" width="36" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkE-KJ-89W">
+                        <rect key="frame" x="157" y="119" width="366" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="9DX-gK-GBz" firstAttribute="trailing" secondItem="VkE-KJ-89W" secondAttribute="trailing" multiplier="0.7" id="14U-kA-qYz"/>
                     <constraint firstItem="lak-NI-dul" firstAttribute="top" secondItem="9DX-gK-GBz" secondAttribute="bottom" constant="16" id="33D-P0-rB6"/>
                     <constraint firstItem="3bL-yz-N9d" firstAttribute="top" secondItem="kks-kZ-335" secondAttribute="top" constant="20" id="6Kd-TU-IZO"/>
                     <constraint firstAttribute="trailing" secondItem="VkE-KJ-89W" secondAttribute="trailing" constant="20" id="9Pu-7X-D18"/>
+                    <constraint firstItem="VkE-KJ-89W" firstAttribute="leading" secondItem="lak-NI-dul" secondAttribute="leading" id="Gu4-te-Fo9"/>
                     <constraint firstItem="VkE-KJ-89W" firstAttribute="bottom" secondItem="3bL-yz-N9d" secondAttribute="bottom" id="S6x-Tm-Iaj"/>
                     <constraint firstItem="lak-NI-dul" firstAttribute="leading" secondItem="9DX-gK-GBz" secondAttribute="leading" id="UR8-Ht-WxZ"/>
                     <constraint firstItem="3bL-yz-N9d" firstAttribute="width" secondItem="3bL-yz-N9d" secondAttribute="height" multiplier="1:1" id="Zc6-MU-vgn"/>
                     <constraint firstItem="9DX-gK-GBz" firstAttribute="top" secondItem="kks-kZ-335" secondAttribute="top" constant="30" id="cc7-f1-KOR"/>
                     <constraint firstItem="3bL-yz-N9d" firstAttribute="leading" secondItem="kks-kZ-335" secondAttribute="leading" constant="20" id="fBu-9z-QVc"/>
                     <constraint firstItem="9DX-gK-GBz" firstAttribute="leading" secondItem="3bL-yz-N9d" secondAttribute="trailing" constant="17" id="lx6-xk-7rX"/>
+                    <constraint firstItem="lak-NI-dul" firstAttribute="trailing" secondItem="VkE-KJ-89W" secondAttribute="trailing" id="qlv-wA-xje"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
