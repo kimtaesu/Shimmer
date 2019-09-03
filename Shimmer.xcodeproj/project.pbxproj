@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393513DFAAB97B651BF84544 /* Pods_Shimmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F718FFC7B8A85F58C9047564 /* Pods_Shimmer.framework */; };
 		BD980676231EA1C4003A2C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD980675231EA1C4003A2C86 /* AppDelegate.swift */; };
 		BD980678231EA1C4003A2C86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD980677231EA1C4003A2C86 /* ViewController.swift */; };
 		BD98067B231EA1C4003A2C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD980679231EA1C4003A2C86 /* Main.storyboard */; };
 		BD98067E231EA1C4003A2C86 /* Shimmer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD98067C231EA1C4003A2C86 /* Shimmer.xcdatamodeld */; };
 		BD980680231EA1C5003A2C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD98067F231EA1C5003A2C86 /* Assets.xcassets */; };
 		BD980683231EA1C5003A2C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD980681231EA1C5003A2C86 /* LaunchScreen.storyboard */; };
+		BD98068B231EA449003A2C86 /* ShimmerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98068A231EA449003A2C86 /* ShimmerCell.swift */; };
+		BD98068D231EA471003A2C86 /* NibForName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98068C231EA471003A2C86 /* NibForName.swift */; };
+		BD98068F231EA499003A2C86 /* ShimmerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD98068E231EA499003A2C86 /* ShimmerCell.xib */; };
+		BDEE63EE231EAE3F005E8819 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEE63ED231EAE3F005E8819 /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B0A66B9E74F7655BD4AE5C9 /* Pods-Shimmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shimmer.release.xcconfig"; path = "Target Support Files/Pods-Shimmer/Pods-Shimmer.release.xcconfig"; sourceTree = "<group>"; };
+		A42B647E49BF29125DB7D695 /* Pods-Shimmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shimmer.debug.xcconfig"; path = "Target Support Files/Pods-Shimmer/Pods-Shimmer.debug.xcconfig"; sourceTree = "<group>"; };
 		BD980672231EA1C4003A2C86 /* Shimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD980675231EA1C4003A2C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD980677231EA1C4003A2C86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		BD98067F231EA1C5003A2C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD980682231EA1C5003A2C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD980684231EA1C5003A2C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD98068A231EA449003A2C86 /* ShimmerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerCell.swift; sourceTree = "<group>"; };
+		BD98068C231EA471003A2C86 /* NibForName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibForName.swift; sourceTree = "<group>"; };
+		BD98068E231EA499003A2C86 /* ShimmerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShimmerCell.xib; sourceTree = "<group>"; };
+		BDEE63ED231EAE3F005E8819 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		F718FFC7B8A85F58C9047564 /* Pods_Shimmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shimmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393513DFAAB97B651BF84544 /* Pods_Shimmer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5920A0D1A6DA29E1D69F4C93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A42B647E49BF29125DB7D695 /* Pods-Shimmer.debug.xcconfig */,
+				4B0A66B9E74F7655BD4AE5C9 /* Pods-Shimmer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B018BAD5569A1EDEBFB65E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F718FFC7B8A85F58C9047564 /* Pods_Shimmer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD980669231EA1C4003A2C86 = {
 			isa = PBXGroup;
 			children = (
 				BD980674231EA1C4003A2C86 /* Shimmer */,
 				BD980673231EA1C4003A2C86 /* Products */,
+				5920A0D1A6DA29E1D69F4C93 /* Pods */,
+				9B018BAD5569A1EDEBFB65E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +96,10 @@
 				BD980681231EA1C5003A2C86 /* LaunchScreen.storyboard */,
 				BD980684231EA1C5003A2C86 /* Info.plist */,
 				BD98067C231EA1C4003A2C86 /* Shimmer.xcdatamodeld */,
+				BD98068E231EA499003A2C86 /* ShimmerCell.xib */,
+				BD98068A231EA449003A2C86 /* ShimmerCell.swift */,
+				BD98068C231EA471003A2C86 /* NibForName.swift */,
+				BDEE63ED231EAE3F005E8819 /* ImageLoader.swift */,
 			);
 			path = Shimmer;
 			sourceTree = "<group>";
@@ -74,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD980687231EA1C5003A2C86 /* Build configuration list for PBXNativeTarget "Shimmer" */;
 			buildPhases = (
+				1A18D5ECADCAAD68B5A52F8B /* [CP] Check Pods Manifest.lock */,
 				BD98066E231EA1C4003A2C86 /* Sources */,
 				BD98066F231EA1C4003A2C86 /* Frameworks */,
 				BD980670231EA1C4003A2C86 /* Resources */,
+				41DC392628ED7319012B85D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD98068F231EA499003A2C86 /* ShimmerCell.xib in Resources */,
 				BD980683231EA1C5003A2C86 /* LaunchScreen.storyboard in Resources */,
 				BD980680231EA1C5003A2C86 /* Assets.xcassets in Resources */,
 				BD98067B231EA1C4003A2C86 /* Main.storyboard in Resources */,
@@ -133,12 +173,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A18D5ECADCAAD68B5A52F8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shimmer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41DC392628ED7319012B85D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shimmer/Pods-Shimmer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ShimmerSwift/ShimmerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShimmerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shimmer/Pods-Shimmer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD98066E231EA1C4003A2C86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD98068B231EA449003A2C86 /* ShimmerCell.swift in Sources */,
 				BD980678231EA1C4003A2C86 /* ViewController.swift in Sources */,
+				BDEE63EE231EAE3F005E8819 /* ImageLoader.swift in Sources */,
+				BD98068D231EA471003A2C86 /* NibForName.swift in Sources */,
 				BD98067E231EA1C4003A2C86 /* Shimmer.xcdatamodeld in Sources */,
 				BD980676231EA1C4003A2C86 /* AppDelegate.swift in Sources */,
 			);
@@ -284,6 +376,7 @@
 		};
 		BD980688231EA1C5003A2C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42B647E49BF29125DB7D695 /* Pods-Shimmer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +395,7 @@
 		};
 		BD980689231EA1C5003A2C86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0A66B9E74F7655BD4AE5C9 /* Pods-Shimmer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
