@@ -36,6 +36,7 @@
 		BD98068A231EA449003A2C86 /* ShimmerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerCell.swift; sourceTree = "<group>"; };
 		BD98068C231EA471003A2C86 /* NibForName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibForName.swift; sourceTree = "<group>"; };
 		BD98068E231EA499003A2C86 /* ShimmerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShimmerCell.xib; sourceTree = "<group>"; };
+		BDA42C512324074300A65210 /* Shimmer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Shimmer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDA8B710231F24970000DE7D /* UIView+Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shimmer.swift"; sourceTree = "<group>"; };
 		BDA8B713231F2E6C0000DE7D /* UIView+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Transition.swift"; sourceTree = "<group>"; };
 		BDEE63ED231EAE3F005E8819 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		BD980669231EA1C4003A2C86 = {
 			isa = PBXGroup;
 			children = (
+				BDA42C512324074300A65210 /* Shimmer.playground */,
 				BDA8B712231F2E600000DE7D /* Documents */,
 				BD980674231EA1C4003A2C86 /* Shimmer */,
 				BD980673231EA1C4003A2C86 /* Products */,
