@@ -8,7 +8,6 @@
 
 import UIKit
 import Kingfisher
-import ShimmerSwift
 
 struct ShimmerModel {
     let imageUrl: URL?
